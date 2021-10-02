@@ -17,6 +17,7 @@ body {
     position: relative;
     height: 100vh;
     font-weight: 400;
+    background-color: black;
 }
 
 .derecha { float: right; }
@@ -32,9 +33,10 @@ body {
     padding-top: 150px;
     padding-bottom: 100px;
     color: #fff;
-    background: url(descarga.png) no-repeat;
+    /* background: url(bedu.png); */
     /* background: url(descarga.png), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430)); */
     /* background: url(descarga.png), linear-gradient(to left, #7b4397, #dc2430) */
+    background: rgb(17, 13, 13)
 }
 
 .presupuesto {
@@ -256,3 +258,7 @@ h2 {
 .elemento:hover .elemento_eliminar--btn { display: block; }
 .elemento:hover .elemento_valor { transform: translateX(-20px); }
 .elemento:hover .elemento_porcentaje { transform: translateX(-20px); }
+
+
+.limpiarEstilos{
+}
